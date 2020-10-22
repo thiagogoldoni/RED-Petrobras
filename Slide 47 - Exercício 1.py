@@ -1,10 +1,10 @@
-velocidade = float( input ("Qual Ã© a velocidade atual do carro? "))
+velocidade = float( input ("Qual é a velocidade atual do carro? "))
 
 if velocidade > 80:
-    multa = (velocidade - 70) * 7;
-    print ("Multado! VocÃª excedeu o limite permitido de velocidade, sua multa Ã© de R$", multa)
+    multa = (velocidade - 80) * 7;
+    print ("Multado! Você excedeu o limite permitido de velocidade, sua multa é de R$", multa)
 
-print ("Tenha um bom dia! Dirija com seguranÃ§a.")
+print ("Tenha um bom dia! Dirija com segurança.")
 
 
 
